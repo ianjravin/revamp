@@ -59,7 +59,7 @@
 		<!-- RESPONSIVE CSS -->
 		<link href="css/responsive.css" rel="stylesheet">
 
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 
@@ -102,7 +102,7 @@
 						<!-- LOGO IMAGE -->
 						<!-- Recommended sizes for Retina Ready displays is 230x60px; -->
 				 		<a href="index.html" class="navbar-brand logo-white"><img src="images/logo-white.png" width="270" height="220" alt="header-logo"></a>
-				 		<a href="index.html" class="navbar-brand logo-black"><img src="images/logo.png" width="100" height="85" alt="header-logo"></a>
+				 		<a href="index.html" class="navbar-brand logo-black"><img src="images/logo.png" width="270" height="220" alt="header-logo"></a>
 
 
 				 		<!-- Responsive Menu Button -->
@@ -115,12 +115,12 @@
 				  		<div id="navbarSupportedContent" class="collapse navbar-collapse">
 					   		<ul class="navbar-nav ml-auto">
 
-					     		<li class="nav-item"><a class="nav-link" href="about.html"><font color="black">About Us</a></li></font>
+					     		<li class="nav-item"><a class="nav-link" href="about.html"><font color="black"><h3>About Us</h3></a></li></font>
 
 
 					      		<li class="nav-item dropdown">
 							        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							          <font color="black">Our Solutions</font>
+							          <font color="black"><h3>Our Solutions</h3></font>
 							        </a>
 							        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 							        	<a class="dropdown-item" href="node.html">Node</a>
@@ -629,7 +629,51 @@
 
 
 
+			<section id="contact">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="section-title">
+								<h1>Contact us</h1>
+								<span class="st-border"></span>
+							</div>
+						</div>
+						<div class="col-sm-4 contact-info">
+							<p class="contact-content">You have any question? Feel free to contact us, We would love to hear from you.</p>
+							<p class="st-address"><i class="fa fa-map-marker"></i> <strong>Marsabit Plaza, 6th Floor, Ngong Road.</strong></p>
+							<p class="st-phone"><i class="fa fa-mobile"></i> <strong>+254-720-967-297</strong></p>
+							<p class="st-email"><i class="fa fa-envelope-o"></i> <strong>info@nouveta.tech</strong></p>
+							<p class="st-website"><i class="fa fa-globe"></i> <strong>www.nouveta.co.ke</strong></p>
 
+						</div>
+						<div class="col-sm-7 col-sm-offset-1">
+							<form action="php/send-contact.php" class="contact-form" name="contact-form" method="post">
+								<div class="row">
+									<div class="col-sm-6">
+										<input type="text" name="name" required="required" placeholder="Name*">
+									</div>
+									<div class="col-sm-6">
+										<input type="email" name="email" required="required" placeholder="Email*">
+									</div>
+									<div class="col-sm-6">
+										<input type="text" name="subject" placeholder="Subject">
+									</div>
+									<div class="col-sm-6">
+										<input type="text" name="website" placeholder="Website">
+									</div>
+									<div class="col-sm-12">
+										<textarea name="message" required="required" cols="30" rows="7" placeholder="Message*"></textarea>
+									</div>
+									<div class="col-sm-12">
+										<input type="submit" name="submit" value="Send Message" class="btn btn-send">
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /CONTACT -->
 
 
 
@@ -717,7 +761,7 @@
 			</section>	 -->
 
 
-			<section id="contact" class="section-gray-bg section-spaceing">
+			<!-- <section id="contact" class="section-gray-bg section-spaceing">
 					<div class="container">
 							<div class="row">
 									<div class="col-sm-12">
@@ -728,7 +772,7 @@
 									</div>
 							</div>
 							<div class="row">
-									<!-- Contact Info -->
+
 									<div class="col-md-4">
 											<div class="contact-info">
 													<h2>you have any question?</h2>
@@ -741,8 +785,7 @@
 													</ul>
 											</div>
 									</div>
-									<!-- / Contact Info -->
-									<!-- Contact Form -->
+
 									<div class="col-md-8">
 											<div class="contact-form">
 													<div id="cf-message"></div>
@@ -770,10 +813,10 @@
 													</form>
 											</div>
 									</div>
-									<!-- / Contact Form -->
+
 							</div>
 					</div>
-			</section>
+			</section> -->
 			<br>
 			<br>
 			<!-- / End Contact Area -->
@@ -809,9 +852,9 @@
 
 								<!-- Footer Icons list -->
 								<ul class="s-links-icons text-center clearfix">
-									<li><a class="s-link-circle ico-facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a class="s-link-circle ico-twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-										<li><a class="s-link-circle ico-linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>							<!--
+									<a href="https://www.facebook.com/nouvetaltd/" class="fa fa-facebook"></a>
+									<a href="https://twitter.com/NouvetaLTD" class="fa fa-twitter"></a>
+									<a href="https://www.linkedin.com/company/17985583/" class="fa fa-linkedin"></a>						<!--
 									<li><a class="s-link-circle ico-skype" href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
 									<li><a class="s-link-circle ico-instagram" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 									<li><a class="s-link-circle ico-linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>

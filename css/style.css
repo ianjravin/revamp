@@ -3802,159 +3802,191 @@ p.p-hero-medium {
 }
 
 
+/* 16.Conatct Area
+/*----------------------------------------------------*/
+ /*.contact-form .form-control {
+     border: 1px solid #ddd;
+     box-shadow: none;
+     height: 50px;
+     position: relative;
+}
+ .contact-form .form-control:focus {
+     box-shadow: none;
+}
+ .contact-form textarea.form-control {
+     height: 170px;
+}
+ button.contact-btn{
+     box-shadow: 0 0 1px transparent;
+     display: inline-block;
+     position: relative;
+     transform: perspective(1px) translateZ(0px);
+     transition-duration: 0.3s;
+     transition-property: color;
+     vertical-align: middle;
+     background: #F28500 none repeat scroll 0 0;
+     border: medium none;
+     color: #fff;
+     padding: 13px 20px;
+     text-align: center;
+     text-transform: capitalize;
+     width: 200px;
+}
+ button.contact-btn:before {
+     background: #343434 none repeat scroll 0 0;
+     bottom: 0;
+     content: "";
+     left: 0;
+     position: absolute;
+     right: 0;
+     top: 0;
+     transform: scaleY(0);
+     transform-origin: 50% 50% 0;
+     transition-duration: 0.3s;
+     transition-property: transform;
+     transition-timing-function: ease-out;
+     z-index: -1;
+}
+ button.contact-btn:hover, button.contact-btn:focus, button.contact-btn:active {
+     color: white;
+}
+ button.contact-btn:hover:before, button.contact-btn:focus:before, button.contact-btn:active:before {
+     transform: scaleY(1);
+}
+ .address-info-text > li {
+     display: block;
+     font-weight: 500;
+     list-style: outside none none;
+     margin-bottom: 10px;
+     text-transform: capitalize;
+}
+.address-info-text span {
+  border: 1px solid #F28500;
+  border-radius: 50%;
+  color: #333;
+  display: inline-block;
+  font-size: 16px;
+  height: 40px;
+  line-height: 37px;
+  margin-right: 10px;
+  text-align: center;
+  width: 40px;
+}
+ .contact-info > h2 {
+     margin-bottom: 15px;
+     margin-top: 0;
+     text-transform: capitalize;
+}
+ .error{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    background: red;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.success {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    background: #75a733;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 15px;
+}*/
 
 
-/* ==========================================================================
-   19.	CONTACTS
-   =========================================================================== */
+	#contact{
+		padding-top: 130px;
+		padding-bottom: 120px;
+	}
 
-#contacts-1 .form-holder {
-	background-color: #fff;
-	border: 1px solid #ddd;
-	padding: 60px 50px 40px;
-	-webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-    box-shadow: 0 0 10px rgba(10, 10, 10, 0.1);
+	.contact-info .contact-content{
+		margin-bottom: 30px;
+	}
+
+	.contact-info p{
+		margin-bottom: 20px;
+	}
+
+	.contact-info p i{
+		font-size: 16px;
+		margin-right: 10px;
+	}
+
+	.contact-form{}
+
+	.contact-form input[type="text"],
+	.contact-form input[type="email"]{
+		border: 1px solid #E8E8E8;
+		padding: 8px 14px;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.contact-form textarea{
+		border: 1px solid #E8E8E8;
+		padding: 8px 14px;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.btn-send{
+		background-color: #383838;
+		border-radius: 0;
+		border: 0;
+		color: #fff;
+		padding: 8px 14px;
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+	}
+
+	.btn-send:hover{
+		background-color: #000;
+		color: #fff;
+	}
+
+
+
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
 }
 
-/*------------------------------------------*/
-/*	  CONTACTS TYPOGRAPHY
-/*------------------------------------------*/
-
-.contact-section h4 {
-	margin-bottom: 20px;
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
 }
 
-#contacts-1 h2 {
-	margin-bottom: 20px;
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
 }
 
-.contact-box p {
-	margin-bottom: 1px;
-	margin-left: 50px;
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
 }
 
-#contacts-1 .contact-box p {
-	color: #ccc;
+.fa-linkedin {
+    background: #3B5998;
+    color: white;
 }
-
-#contacts-1.bg-lightgrey .contact-box p {
-	color: #666;
-}
-
-.contact-box span {
-	font-size: 1.1rem;
-	font-weight: 600;
-	display: block;
-	margin-bottom: 2px;
-	margin-left: 50px;
-}
-
-.contact-box i {
-	width: 35px;
-	height: 35px;
-	font-size: 2.125rem;
-	float: left;
-	margin-top: 5px;
-}
-
-.contact-box.contact-email i {
-	font-size: 2rem;
-}
-
-.contact-box a {
-	text-decoration: underline;
-}
-
-.contact-box a:hover {
-	color: #ff5607;
-}
-
-/*------------------------------------------*/
-/*	  CONTACT FORM
-/*------------------------------------------*/
-
-.contact-form .form-control {
-	background-color: #f0f0f0;
-	color: #333;
-	height: 46px;
-	font-size: 15px;
-	font-weight: 300;
-	padding: 5px 15px;
-	margin-bottom: 20px;
-	border: 1px solid #ddd;
-    box-shadow: none;
-}
-
-.contact-form textarea.form-control {
-	padding: 15px;
-}
-
-#contacts-3 .contact-form .form-control {
-	background-color: #fff;
-}
-
-.contact-form .form-control:focus {
-    border-color: #48af4b;
-	outline: 0px none;
-	box-shadow: none;
-}
-
-/*------------------------------------------*/
-/*	  Forms Message
-/*------------------------------------------*/
-
-.contact-form label.error {
-	color: #f6412d;
-	font-size: 0.95rem;
-	line-height: 1;
-	margin-bottom: 15px;
-}
-
-.contact-form-msg {
-	margin-top: 10px;
-}
-
-.contact-form-msg .loading {
-	color: #45afff;
-	font-size: 1.05rem;
-	line-height: 1;
-	font-weight: 400;
-}
-
-.contact-form-msg .error {
-	color: #f6412d;
-	font-size: 1.05rem;
-	line-height: 1;
-	font-weight: 400;
-}
-
-/*------------------------------------------*/
-/*	  Contact Form Textarea
-/*------------------------------------------*/
-
-textarea {
-	min-height: 140px;
-}
-
-/*------------------------------------------*/
-/*	  Contact Form Placeholder
-/*------------------------------------------*/
-
-.contact-form .form-control::-moz-placeholder { color: #777; }
-.contact-form .form-control:-ms-input-placeholder { color: #777; }
-.contact-form .form-control::-webkit-input-placeholder { color: #777; }
-
-/*------------------------------------------*/
-/*	CONTACTS GOOGLE MAP
-/*------------------------------------------*/
-
-#gmap {
-	width: 100%;
-	height: 500px;
-}
-
 
 
 
