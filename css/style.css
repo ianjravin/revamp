@@ -1,16 +1,7 @@
 
 
 
-/*
-  Template Name: UniSet - Premium Multi-Concept Landing Pages Pack
-  Theme URL: https://themeforest.net/user/dsathemes
-  Description: UniSet - Premium Multi-Concept Landing Pages Pack
-  Author: DSAThemes
-  Author URL: https://themeforest.net/user/dsathemes
-  Version: 1.0.0
-  Website: www.dsathemes.com
-  Tags: Responsive, HTML5, DSAThemes, Multi-Concept, Startup, One Page, Landing, Business, Creative, Corporate, Agency, Project
-*/
+
 
 
 
@@ -18,17 +9,33 @@
 /* ===========================================================================
    01. GENERAL & BASIC STYLES
    =========================================================================== */
+	 html,body {
+	   font-family: 'Raleway', sans-serif;
 
+	   font-size: 18px;
+
+
+	 }
+
+
+
+
+	 h1,h2 {
+	   font-weight: 200;
+	   margin: 0.4em 0;
+
+	 }
+	 h1 { font-size: 3.5em; }
+	 h2 {
+	   color: black;
+	   font-size: 2em;
+	 }
 html {
 	-webkit-font-smoothing: antialiased;
 	font-size: 16px;
 }
 
-body {
-	font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	color: #333;
-	font-weight: 300;
-}
+
 
 /*------------------------------------------------------------------*/
 /*   IE10 in Windows 8 and Windows Phone 8 Bug fix
